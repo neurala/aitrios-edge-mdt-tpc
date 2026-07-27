@@ -12,4 +12,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 # ==============================================================================
-__version__ = '0.0.0'    # this updated on the fly in .github/workflows/
+
+# NOTE:2026-07-27:jgerity:Upstream, this version is set to 0.0.0 and managed by a GitHub workflow, which causes some
+# problems for us when we depend on it internally, so here we set the version to the release corresponding to this
+# branch's history and an appropriate local version identifier to distinguish it from the official release.
+__version__ = '1.3.0+neurala.2026-07-27'
